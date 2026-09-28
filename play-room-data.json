@@ -1,0 +1,46 @@
+{
+  "updated_at": "2026-09-28T22:55:00Z",
+  "featured_id": "golden-thread",
+  "experiences": [
+    {
+      "id": "golden-thread",
+      "title": "The Golden Thread",
+      "kicker": "FEATURED · MADE TODAY",
+      "description": "Gather five little lights. Each one opens a saved artwork and a piece of the story.",
+      "url": "./thread-garden.html",
+      "image": "./assets/morning-desk.png",
+      "kind": "Touch story",
+      "verified_at": "2026-09-28T22:55:00Z"
+    },
+    {
+      "id": "art-plane",
+      "title": "A wall of little wonders",
+      "kicker": "47 ARTWORKS · FIND YOUR MOOD",
+      "description": "Wander a wall of illustrations and field prints. Tap any piece, then move through the collection.",
+      "url": "./data/art-index.html",
+      "image": "./assets/first-new-leaf.png",
+      "kind": "Art playground",
+      "verified_at": "2026-09-28T22:55:00Z"
+    },
+    {
+      "id": "paper-companion",
+      "title": "The paper companion",
+      "kicker": "FOLDS · THREADS · LITTLE CLUES",
+      "description": "Turn a quiet desk into a trail of meaning. Explore the paper witness and follow its thread.",
+      "url": "./skein-doll.html",
+      "image": "./assets/paper-witness.png",
+      "kind": "Interactive trace",
+      "verified_at": "2026-09-28T22:25:00Z"
+    },
+    {
+      "id": "friction-doll",
+      "title": "The Friction Doll",
+      "kicker": "NEW FIELD ART · A WAY HOME",
+      "description": "Touch six little symbols to explore the knots, the companions and the way forward. Carry a compact handoff.",
+      "url": "./friction-doll.html",
+      "image": "./assets/friction-doll.png",
+      "kind": "Interactive art",
+      "verified_at": "2026-09-28T23:15:00Z"
+    }
+  ]
+}

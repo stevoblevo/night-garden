@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#102f30">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <title>The Play Room · Night Garden</title>
+  <link rel="icon" href="./play-room-icon.svg" type="image/svg+xml">
+  <link rel="manifest" href="./play-room.webmanifest">
+  <link rel="stylesheet" href="./play-room.css">
+  <script src="./play-room.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#experiences">Skip to the collection</a>
+  <header class="topbar">
+    <a class="wordmark" id="home" href="./play-room.html" aria-label="Play Room home — latest featured experience"><span class="brand-flower" aria-hidden="true">✳</span><span>the play room<small>NIGHT GARDEN / A PLACE TO RETURN</small></span></a>
+    <button class="quiet" id="install" type="button">Keep this room <span aria-hidden="true">↗</span></button>
+  </header>
+  <main>
+    <section class="welcome" aria-labelledby="welcome-title">
+      <div><p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> LITTLE WORLDS, WITH A WAY HOME</p><h1 id="welcome-title">Something good<br>to <em>get lost in.</em></h1></div>
+      <p class="welcome-note">A small shelf of places worth opening.<br>Choose a world. Keep a way home.</p>
+    </section>
+    <section id="experiences" class="collection" aria-labelledby="collection-title">
+      <div class="section-heading"><div><p class="eyebrow">ON THE SHELF</p><h2 id="collection-title">Find your next little world.</h2></div><button class="quiet" id="refresh" type="button">Refresh shelf <span aria-hidden="true">↻</span></button></div>
+      <p id="load-status" class="load-status" role="status" aria-live="polite">Opening the collection…</p>
+      <div class="carousel" id="carousel" role="region" aria-roledescription="carousel" aria-label="Curated experiences" tabindex="0">
+        <div class="empty-card" id="empty-card"><span class="empty-flower" aria-hidden="true">✳</span><h3>A little room to begin.</h3><p>The shelf is loading. You can plant something below while you wait.</p></div>
+      </div>
+      <div class="shelf-controls"><p class="gesture-note">Swipe to wander. Tap to open.</p><div class="navigation"><button id="previous" class="round" type="button" aria-label="Previous experience" disabled>←</button><span id="position" aria-live="polite">—</span><button id="next" class="round" type="button" aria-label="Next experience" disabled>→</button></div></div>
+      <div id="selectors" class="selectors" role="group" aria-label="Choose an experience"></div>
+      <p class="return-note"><span aria-hidden="true">⌂</span> Selected worlds open here with a Home button. Other sites open in your browser.<span id="updated"></span></p>
+    </section>
+    <section class="seed-room" aria-labelledby="seed-title">
+      <div class="seed-heading"><div><p class="eyebrow">OR STAY A LITTLE</p><h2 id="seed-title">Leave a little light.</h2><p>Touch or draw through the garden.<br>Nothing to win. Nothing to finish.</p></div><span class="seed-seal" aria-hidden="true">✺<small>A SMALL<br>QUIET THING</small></span></div>
+      <div class="canvas-wrap"><canvas id="seed-canvas" role="img" aria-label="A small interactive garden. Touch or drag to plant lights, or use the Plant a seed button below."></canvas><span class="canvas-caption" aria-hidden="true">a place for your hands to think</span></div>
+      <div class="seed-controls"><div><button class="seed-button" id="plant" type="button">Plant a seed <span aria-hidden="true">✦</span></button><button class="quiet" id="clear" type="button">Begin again</button></div><button class="quiet" id="motion" type="button" aria-pressed="false">Pause motion</button></div>
+      <p id="seed-status" class="seed-status" role="status" aria-live="polite">A playful canvas, held only in this page. It does not run work or change any systems.</p>
+    </section>
+  </main>
+  <footer><a href="./play-room.html" id="footer-home">Back to your room ↑</a><span>Take the wonder. Keep the way home.</span><a href="./index.html">Night Garden ↗</a></footer>
+  <dialog class="play-overlay" id="play-overlay" aria-labelledby="play-title" aria-describedby="play-hint">
+    <div class="play-toolbar"><button class="play-home" id="play-home" type="button"><span aria-hidden="true">⌂</span> Worlds / Home</button><div><h2 id="play-title">A world in your room</h2><p id="play-hint">Stay here to play. Home or Escape returns to your shelf.</p></div><a class="quiet" id="play-browser" target="_blank" rel="noopener noreferrer">Open in browser ↗</a></div>
+    <iframe id="play-frame" title="Selected Night Garden experience" src="about:blank" allow="fullscreen 'none'; camera 'none'; microphone 'none'; geolocation 'none'; payment 'none'; usb 'none'"></iframe>
+  </dialog>
+  <div class="install-note" id="install-note" role="status" hidden></div>
+</body>
+</html>
