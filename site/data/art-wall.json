@@ -75,9 +75,9 @@
       "Night Garden",
       "saved art"
     ],
-    "title": "Friction Doll",
-    "type": "illustration",
-    "url": "../assets/friction-doll.png"
+    "title": "Field Print 08",
+    "type": "print",
+    "url": "../art/plate-008.svg"
   },
   {
     "note": "A preserved artwork from a creative project. This public caption is not operational evidence.",
@@ -470,13 +470,16 @@
     "url": "../art/plate-047.svg"
   },
   {
-    "note": "A preserved artwork from a creative project. This public caption is not operational evidence.",
+    "note": "A peach loop, a brass gate, bounded companions and dawn. One knot remains unresolved; this symbolic artwork is not execution evidence.",
     "tags": [
       "Night Garden",
-      "saved art"
+      "friction doll",
+      "touch play",
+      "orchestration",
+      "golden thread"
     ],
-    "title": "Field Print 48",
-    "type": "print",
-    "url": "../art/plate-048.svg"
+    "title": "The Friction Doll — A Way Home",
+    "type": "illustration",
+    "url": "../assets/friction-doll.png"
   }
 ]

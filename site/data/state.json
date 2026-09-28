@@ -50,11 +50,11 @@
       "title": "Thread Toward Home"
     },
     {
-      "art_url": "./assets/friction-doll.png",
+      "art_url": "./art/plate-008.svg",
       "id": "plate-008",
       "note_url": "./data/art-index.html",
       "summary": "A saved artwork, shared as a presentation keepsake.",
-      "title": "Friction Doll"
+      "title": "Field Print 08"
     },
     {
       "art_url": "./art/plate-009.svg",
@@ -330,11 +330,11 @@
       "title": "Field Print 47"
     },
     {
-      "art_url": "./art/plate-048.svg",
+      "art_url": "./assets/friction-doll.png",
       "id": "plate-048",
       "note_url": "./data/art-index.html",
       "summary": "A saved artwork, shared as a presentation keepsake.",
-      "title": "Field Print 48"
+      "title": "The Friction Doll — A Way Home"
     }
   ],
   "checks": [],
