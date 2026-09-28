@@ -1,0 +1,12 @@
+{
+  "id": "./play-room.html",
+  "name": "The Play Room · Night Garden",
+  "short_name": "Play Room",
+  "description": "Small worlds, a quiet seed garden, and an easy way home.",
+  "start_url": "./play-room.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#102f30",
+  "theme_color": "#102f30",
+  "icons": [{"src": "./play-room-icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable"}]
+}

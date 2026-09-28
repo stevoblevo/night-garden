@@ -37,7 +37,8 @@ def handler_for(root):
             self.send_header("Content-Length", str(len(body)))
             self.send_header("X-Content-Type-Options", "nosniff")
             self.send_header("Referrer-Policy", "no-referrer")
-            self.send_header("Content-Security-Policy", "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; frame-ancestors 'none'; base-uri 'none'; form-action 'none'")
+            self.send_header("Cache-Control", "no-cache")
+            self.send_header("Content-Security-Policy", "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; frame-src 'self' https://sae-anewgam.vercel.app; frame-ancestors 'self'; base-uri 'none'; form-action 'none'")
             self.end_headers()
             if not head:
                 self.wfile.write(body)

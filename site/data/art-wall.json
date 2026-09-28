@@ -75,9 +75,9 @@
       "Night Garden",
       "saved art"
     ],
-    "title": "Field Print 08",
-    "type": "print",
-    "url": "../art/plate-008.svg"
+    "title": "Friction Doll",
+    "type": "illustration",
+    "url": "../assets/friction-doll.png"
   },
   {
     "note": "A preserved artwork from a creative project. This public caption is not operational evidence.",
@@ -468,5 +468,15 @@
     "title": "Field Print 47",
     "type": "print",
     "url": "../art/plate-047.svg"
+  },
+  {
+    "note": "A preserved artwork from a creative project. This public caption is not operational evidence.",
+    "tags": [
+      "Night Garden",
+      "saved art"
+    ],
+    "title": "Field Print 48",
+    "type": "print",
+    "url": "../art/plate-048.svg"
   }
 ]
