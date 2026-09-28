@@ -1,0 +1,341 @@
+{
+  "checkpoints": [
+    {
+      "art_url": "./assets/first-new-leaf.png",
+      "id": "plate-001",
+      "note_url": "./data/art-index.html",
+      "summary": "A saved artwork, shared as a presentation keepsake.",
+      "title": "First New Leaf"
+    },
+    {
+      "art_url": "./assets/long-middle.png",
+      "id": "plate-002",
+      "note_url": "./data/art-index.html",
+      "summary": "A saved artwork, shared as a presentation keepsake.",
+      "title": "Long Middle"
+    },
+    {
+      "art_url": "./assets/morning-arrives.png",
+      "id": "plate-003",
+      "note_url": "./data/art-index.html",
+      "summary": "A saved artwork, shared as a presentation keepsake.",
+      "title": "Morning Arrives"
+    },
+    {
+      "art_url": "./assets/morning-desk.png",
+      "id": "plate-004",
+      "note_url": "./data/art-index.html",
+      "summary": "A saved artwork, shared as a presentation keepsake.",
+      "title": "Morning Desk"
+    },
+    {
+      "art_url": "./assets/night-garden-hero.png",
+      "id": "plate-005",
+      "note_url": "./data/art-index.html",
+      "summary": "A saved artwork, shared as a presentation keepsake.",
+      "title": "Night Garden Hero"
+    },
+    {
+      "art_url": "./assets/paper-witness.png",
+      "id": "plate-006",
+      "note_url": "./data/art-index.html",
+      "summary": "A saved artwork, shared as a presentation keepsake.",
+      "title": "Paper Witness"
+    },
+    {
+      "art_url": "./assets/thread-toward-home.png",
+      "id": "plate-007",
+      "note_url": "./data/art-index.html",
+      "summary": "A saved artwork, shared as a presentation keepsake.",
+      "title": "Thread Toward Home"
+    },
+    {
+      "art_url": "./art/plate-008.svg",
+      "id": "plate-008",
+      "note_url": "./data/art-index.html",
+      "summary": "A saved artwork, shared as a presentation keepsake.",
+      "title": "Field Print 08"
+    },
+    {
+      "art_url": "./art/plate-009.svg",
+      "id": "plate-009",
+      "note_url": "./data/art-index.html",
+      "summary": "A saved artwork, shared as a presentation keepsake.",
+      "title": "Field Print 09"
+    },
+    {
+      "art_url": "./art/plate-010.svg",
+      "id": "plate-010",
+      "note_url": "./data/art-index.html",
+      "summary": "A saved artwork, shared as a presentation keepsake.",
+      "title": "Field Print 10"
+    },
+    {
+      "art_url": "./art/plate-011.svg",
+      "id": "plate-011",
+      "note_url": "./data/art-index.html",
+      "summary": "A saved artwork, shared as a presentation keepsake.",
+      "title": "Field Print 11"
+    },
+    {
+      "art_url": "./art/plate-012.svg",
+      "id": "plate-012",
+      "note_url": "./data/art-index.html",
+      "summary": "A saved artwork, shared as a presentation keepsake.",
+      "title": "Field Print 12"
+    },
+    {
+      "art_url": "./art/plate-013.svg",
+      "id": "plate-013",
+      "note_url": "./data/art-index.html",
+      "summary": "A saved artwork, shared as a presentation keepsake.",
+      "title": "Field Print 13"
+    },
+    {
+      "art_url": "./art/plate-014.svg",
+      "id": "plate-014",
+      "note_url": "./data/art-index.html",
+      "summary": "A saved artwork, shared as a presentation keepsake.",
+      "title": "Field Print 14"
+    },
+    {
+      "art_url": "./art/plate-015.svg",
+      "id": "plate-015",
+      "note_url": "./data/art-index.html",
+      "summary": "A saved artwork, shared as a presentation keepsake.",
+      "title": "Field Print 15"
+    },
+    {
+      "art_url": "./art/plate-016.svg",
+      "id": "plate-016",
+      "note_url": "./data/art-index.html",
+      "summary": "A saved artwork, shared as a presentation keepsake.",
+      "title": "Field Print 16"
+    },
+    {
+      "art_url": "./art/plate-017.svg",
+      "id": "plate-017",
+      "note_url": "./data/art-index.html",
+      "summary": "A saved artwork, shared as a presentation keepsake.",
+      "title": "Field Print 17"
+    },
+    {
+      "art_url": "./art/plate-018.svg",
+      "id": "plate-018",
+      "note_url": "./data/art-index.html",
+      "summary": "A saved artwork, shared as a presentation keepsake.",
+      "title": "Field Print 18"
+    },
+    {
+      "art_url": "./art/plate-019.svg",
+      "id": "plate-019",
+      "note_url": "./data/art-index.html",
+      "summary": "A saved artwork, shared as a presentation keepsake.",
+      "title": "Field Print 19"
+    },
+    {
+      "art_url": "./art/plate-020.svg",
+      "id": "plate-020",
+      "note_url": "./data/art-index.html",
+      "summary": "A saved artwork, shared as a presentation keepsake.",
+      "title": "Field Print 20"
+    },
+    {
+      "art_url": "./art/plate-021.svg",
+      "id": "plate-021",
+      "note_url": "./data/art-index.html",
+      "summary": "A saved artwork, shared as a presentation keepsake.",
+      "title": "Field Print 21"
+    },
+    {
+      "art_url": "./art/plate-022.svg",
+      "id": "plate-022",
+      "note_url": "./data/art-index.html",
+      "summary": "A saved artwork, shared as a presentation keepsake.",
+      "title": "Field Print 22"
+    },
+    {
+      "art_url": "./art/plate-023.svg",
+      "id": "plate-023",
+      "note_url": "./data/art-index.html",
+      "summary": "A saved artwork, shared as a presentation keepsake.",
+      "title": "Field Print 23"
+    },
+    {
+      "art_url": "./art/plate-024.svg",
+      "id": "plate-024",
+      "note_url": "./data/art-index.html",
+      "summary": "A saved artwork, shared as a presentation keepsake.",
+      "title": "Field Print 24"
+    },
+    {
+      "art_url": "./art/plate-025.svg",
+      "id": "plate-025",
+      "note_url": "./data/art-index.html",
+      "summary": "A saved artwork, shared as a presentation keepsake.",
+      "title": "Field Print 25"
+    },
+    {
+      "art_url": "./art/plate-026.svg",
+      "id": "plate-026",
+      "note_url": "./data/art-index.html",
+      "summary": "A saved artwork, shared as a presentation keepsake.",
+      "title": "Field Print 26"
+    },
+    {
+      "art_url": "./art/plate-027.svg",
+      "id": "plate-027",
+      "note_url": "./data/art-index.html",
+      "summary": "A saved artwork, shared as a presentation keepsake.",
+      "title": "Field Print 27"
+    },
+    {
+      "art_url": "./art/plate-028.svg",
+      "id": "plate-028",
+      "note_url": "./data/art-index.html",
+      "summary": "A saved artwork, shared as a presentation keepsake.",
+      "title": "Field Print 28"
+    },
+    {
+      "art_url": "./art/plate-029.svg",
+      "id": "plate-029",
+      "note_url": "./data/art-index.html",
+      "summary": "A saved artwork, shared as a presentation keepsake.",
+      "title": "Field Print 29"
+    },
+    {
+      "art_url": "./art/plate-030.svg",
+      "id": "plate-030",
+      "note_url": "./data/art-index.html",
+      "summary": "A saved artwork, shared as a presentation keepsake.",
+      "title": "Field Print 30"
+    },
+    {
+      "art_url": "./art/plate-031.svg",
+      "id": "plate-031",
+      "note_url": "./data/art-index.html",
+      "summary": "A saved artwork, shared as a presentation keepsake.",
+      "title": "Field Print 31"
+    },
+    {
+      "art_url": "./art/plate-032.svg",
+      "id": "plate-032",
+      "note_url": "./data/art-index.html",
+      "summary": "A saved artwork, shared as a presentation keepsake.",
+      "title": "Field Print 32"
+    },
+    {
+      "art_url": "./art/plate-033.svg",
+      "id": "plate-033",
+      "note_url": "./data/art-index.html",
+      "summary": "A saved artwork, shared as a presentation keepsake.",
+      "title": "Field Print 33"
+    },
+    {
+      "art_url": "./art/plate-034.svg",
+      "id": "plate-034",
+      "note_url": "./data/art-index.html",
+      "summary": "A saved artwork, shared as a presentation keepsake.",
+      "title": "Field Print 34"
+    },
+    {
+      "art_url": "./art/plate-035.svg",
+      "id": "plate-035",
+      "note_url": "./data/art-index.html",
+      "summary": "A saved artwork, shared as a presentation keepsake.",
+      "title": "Field Print 35"
+    },
+    {
+      "art_url": "./art/plate-036.svg",
+      "id": "plate-036",
+      "note_url": "./data/art-index.html",
+      "summary": "A saved artwork, shared as a presentation keepsake.",
+      "title": "Field Print 36"
+    },
+    {
+      "art_url": "./art/plate-037.svg",
+      "id": "plate-037",
+      "note_url": "./data/art-index.html",
+      "summary": "A saved artwork, shared as a presentation keepsake.",
+      "title": "Field Print 37"
+    },
+    {
+      "art_url": "./art/plate-038.svg",
+      "id": "plate-038",
+      "note_url": "./data/art-index.html",
+      "summary": "A saved artwork, shared as a presentation keepsake.",
+      "title": "Field Print 38"
+    },
+    {
+      "art_url": "./art/plate-039.svg",
+      "id": "plate-039",
+      "note_url": "./data/art-index.html",
+      "summary": "A saved artwork, shared as a presentation keepsake.",
+      "title": "Field Print 39"
+    },
+    {
+      "art_url": "./art/plate-040.svg",
+      "id": "plate-040",
+      "note_url": "./data/art-index.html",
+      "summary": "A saved artwork, shared as a presentation keepsake.",
+      "title": "Field Print 40"
+    },
+    {
+      "art_url": "./art/plate-041.svg",
+      "id": "plate-041",
+      "note_url": "./data/art-index.html",
+      "summary": "A saved artwork, shared as a presentation keepsake.",
+      "title": "Field Print 41"
+    },
+    {
+      "art_url": "./art/plate-042.svg",
+      "id": "plate-042",
+      "note_url": "./data/art-index.html",
+      "summary": "A saved artwork, shared as a presentation keepsake.",
+      "title": "Field Print 42"
+    },
+    {
+      "art_url": "./art/plate-043.svg",
+      "id": "plate-043",
+      "note_url": "./data/art-index.html",
+      "summary": "A saved artwork, shared as a presentation keepsake.",
+      "title": "Field Print 43"
+    },
+    {
+      "art_url": "./art/plate-044.svg",
+      "id": "plate-044",
+      "note_url": "./data/art-index.html",
+      "summary": "A saved artwork, shared as a presentation keepsake.",
+      "title": "Field Print 44"
+    },
+    {
+      "art_url": "./art/plate-045.svg",
+      "id": "plate-045",
+      "note_url": "./data/art-index.html",
+      "summary": "A saved artwork, shared as a presentation keepsake.",
+      "title": "Field Print 45"
+    },
+    {
+      "art_url": "./art/plate-046.svg",
+      "id": "plate-046",
+      "note_url": "./data/art-index.html",
+      "summary": "A saved artwork, shared as a presentation keepsake.",
+      "title": "Field Print 46"
+    },
+    {
+      "art_url": "./art/plate-047.svg",
+      "id": "plate-047",
+      "note_url": "./data/art-index.html",
+      "summary": "A saved artwork, shared as a presentation keepsake.",
+      "title": "Field Print 47"
+    }
+  ],
+  "checks": [],
+  "live_execution": false,
+  "missions": [],
+  "notes": [
+    "Public art edition. No private operational evidence is included."
+  ],
+  "presentation_only": true,
+  "schema": "saelion-night-garden-state-v1"
+}
