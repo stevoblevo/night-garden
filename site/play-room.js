@@ -51,8 +51,15 @@
   }
   $('home').addEventListener('click', home);
   $('footer-home').addEventListener('click', home);
+  function worldOptions(open) {
+    $('play-options').hidden = !open;
+    $('play-more').setAttribute('aria-expanded', String(open));
+    $('play-more').setAttribute('aria-label', open ? 'Close world options' : 'World options');
+  }
+  $('play-more').onclick = () => worldOptions($('play-options').hidden);
   function closeWorld() {
     clearTimeout(playTimer);
+    worldOptions(false);
     $('play-frame').src = 'about:blank';
     $('play-overlay').close();
     document.body.classList.remove('playing');
@@ -62,6 +69,7 @@
   function openWorld(experience, opener) {
     if (!canEmbed(experience)) return;
     playOpener = opener;
+    worldOptions(false);
     sameOriginWorld = new URL(experience.url).origin === location.origin;
     $('play-hint').textContent = 'Opening your world… Home is always available.';
     clearTimeout(playTimer);
@@ -77,7 +85,11 @@
     $('play-home').focus();
   }
   $('play-home').onclick = closeWorld;
-  $('play-overlay').addEventListener('cancel', event => { event.preventDefault(); closeWorld(); });
+  $('play-overlay').addEventListener('cancel', event => {
+    event.preventDefault();
+    if (!$('play-options').hidden) { worldOptions(false); $('play-more').focus(); }
+    else closeWorld();
+  });
   $('play-frame').addEventListener('load', () => {
     if (!$('play-overlay').open) return;
     clearTimeout(playTimer);
@@ -194,7 +206,7 @@
         });
       }
       render();
-      $('load-status').textContent = 'The latest featured world is ready. Check dates describe the saved collection, not a live availability test.';
+      $('load-status').textContent = 'Latest featured, ready to open.';
       $('updated').textContent = dateLabel(document.updated_at) ? `Shelf updated ${dateLabel(document.updated_at)}` : '';
     } catch {
       $('load-status').textContent = experiences.length
