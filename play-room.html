@@ -31,7 +31,7 @@
       </div>
       <div class="shelf-controls"><p class="gesture-note">Swipe to wander. Tap to open.</p><div class="navigation"><button id="previous" class="round" type="button" aria-label="Previous experience" disabled>←</button><span id="position" aria-live="polite">—</span><button id="next" class="round" type="button" aria-label="Next experience" disabled>→</button></div></div>
       <div id="selectors" class="selectors" role="group" aria-label="Choose an experience"></div>
-      <p class="return-note"><span aria-hidden="true">⌂</span> Selected worlds open here with a Home button. Other sites open in your browser.<span id="updated"></span></p>
+      <details class="room-about"><summary>About this room <span aria-hidden="true">＋</span></summary><p>Choose a world and keep a way home. Selected worlds open here with a Home button; other sites open in your browser. Saved check dates describe the collection, not a live availability test.</p><p class="return-note"><span aria-hidden="true">⌂</span> The seed garden is a toy, held only in this page.<span id="updated"></span></p></details>
     </section>
     <section class="seed-room" aria-labelledby="seed-title">
       <div class="seed-heading"><div><p class="eyebrow">OR STAY A LITTLE</p><h2 id="seed-title">Leave a little light.</h2><p>Touch or draw through the garden.<br>Nothing to win. Nothing to finish.</p></div><span class="seed-seal" aria-hidden="true">✺<small>A SMALL<br>QUIET THING</small></span></div>
@@ -42,7 +42,8 @@
   </main>
   <footer><a href="./play-room.html" id="footer-home">Back to your room ↑</a><span>Take the wonder. Keep the way home.</span><a href="./index.html">Night Garden ↗</a></footer>
   <dialog class="play-overlay" id="play-overlay" aria-labelledby="play-title" aria-describedby="play-hint">
-    <div class="play-toolbar"><button class="play-home" id="play-home" type="button"><span aria-hidden="true">⌂</span> Worlds / Home</button><div><h2 id="play-title">A world in your room</h2><p id="play-hint">Stay here to play. Home or Escape returns to your shelf.</p></div><a class="quiet" id="play-browser" target="_blank" rel="noopener noreferrer">Open in browser ↗</a></div>
+    <div class="play-toolbar"><button class="play-home" id="play-home" type="button" aria-label="Worlds / Home — return to your shelf"><span aria-hidden="true">⌂</span> Home</button><h2 id="play-title">A world in your room</h2><button class="play-more" id="play-more" type="button" aria-label="World options" aria-controls="play-options" aria-expanded="false">•••</button></div>
+    <div class="play-options" id="play-options" hidden><a class="quiet" id="play-browser" target="_blank" rel="noopener noreferrer">Open in browser ↗</a><p id="play-hint">Home returns to your shelf. Extra options fold away when you play.</p></div>
     <iframe id="play-frame" title="Selected Night Garden experience" src="about:blank" allow="fullscreen 'none'; camera 'none'; microphone 'none'; geolocation 'none'; payment 'none'; usb 'none'"></iframe>
   </dialog>
   <div class="install-note" id="install-note" role="status" hidden></div>
