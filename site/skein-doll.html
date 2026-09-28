@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#102d34">
+  <title>Skein · a little lantern for Night Garden</title>
+  <link rel="stylesheet" href="./skein-doll.css">
+  <script src="./skein-doll.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to the lantern</a>
+  <header><a href="./index.html">← Night Garden</a><span>A COMPANION / AN EVIDENCE KEEPSAKE</span></header>
+  <main id="main">
+    <section class="introduction" aria-labelledby="page-title">
+      <p class="eyebrow">SIX FOLDS. ONE THREAD.</p>
+      <h1 id="page-title">A little light,<br><em>held in paper.</em></h1>
+      <p class="intro-copy">Meet Skein. Unfold a layer to see what the work left behind. Where the record is quiet, let it stay quiet.</p>
+    </section>
+    <div class="thread-picker">
+      <div class="select-wrap"><label for="mission">Choose a recorded thread</label><select id="mission" disabled><option>Loading saved missions…</option></select></div>
+      <button id="reload" type="button">Reread snapshot <span aria-hidden="true">↻</span></button>
+      <p id="load-status" role="status">Reading ./data/state.json</p>
+    </div>
+    <noscript><p class="notice">JavaScript is needed to read saved evidence and unfold this lantern. Return to Night Garden to explore the source. No mission evidence has been loaded here.</p></noscript>
+    <div class="worktable">
+      <section class="lantern" aria-label="Skein’s six paper folds">
+        <div class="art" data-layer="request" id="art">
+          <svg viewBox="0 0 600 700" aria-hidden="true" focusable="false">
+            <defs>
+              <radialGradient id="halo"><stop stop-color="#c9d8b0" stop-opacity=".16"/><stop offset="1" stop-color="#c9d8b0" stop-opacity="0"/></radialGradient>
+              <linearGradient id="paper" x2="1" y2="1"><stop stop-color="#fff9e3"/><stop offset="1" stop-color="#c5c5ad"/></linearGradient>
+              <linearGradient id="mint" x2="1" y2="1"><stop stop-color="#c8dfca"/><stop offset="1" stop-color="#658b7e"/></linearGradient>
+              <linearGradient id="pleat"><stop stop-color="#e8dfbf"/><stop offset=".5" stop-color="#fff5d9"/><stop offset="1" stop-color="#b9b99e"/></linearGradient>
+              <pattern id="grain" width="7" height="9" patternUnits="userSpaceOnUse"><circle cx="2" cy="3" r=".55" fill="#14353a" opacity=".15"/></pattern>
+            </defs>
+            <circle cx="300" cy="345" r="290" fill="url(#halo)"/>
+            <g fill="none" stroke="#a2bfa9" opacity=".2"><ellipse cx="300" cy="350" rx="219" ry="273"/><ellipse cx="300" cy="350" rx="194" ry="244" stroke-dasharray="2 9"/><path d="M300 35V650M56 350H544" stroke-dasharray="2 12"/></g>
+            <g fill="none" stroke="#ab9362" stroke-width="1.3"><path d="M300 0V103"/><ellipse cx="300" cy="113" rx="10" ry="14"/><path d="M300 127V150"/></g>
+            <g class="fold fold-request">
+              <path d="M300 174Q243 150 238 111Q277 114 300 155Q321 101 359 93Q362 140 300 174" fill="url(#mint)"/>
+              <path d="M250 123L300 169L347 108" fill="none" stroke="#54786d"/>
+              <path d="M300 149L334 191L300 228L266 191Z" fill="url(#paper)"/><path d="M300 149V228L334 191Z" fill="#e1d8b9"/>
+              <path d="M285 192l5 3m20-3-5 3" stroke="#38564f" stroke-linecap="round"/><path d="M295 207q5 3 10 0" fill="none" stroke="#8a7e5d"/>
+            </g>
+            <g class="fold fold-scope"><path d="M292 232Q220 204 169 262L222 331L300 258L378 331L431 262Q380 204 308 232" fill="url(#mint)"/><path d="M169 262L288 245L222 331M431 262L312 245L378 331" fill="none" stroke="#63867a"/><path d="M180 263L245 251M420 263L355 251" stroke="#e5eddb" opacity=".6"/></g>
+            <g class="fold fold-worker"><path d="M300 223L354 280L337 352H263L246 280Z" fill="url(#paper)"/><path d="M300 223L280 293L300 350L321 293Z" fill="#fff7de"/><path d="M246 280L280 293M354 280L321 293M300 223V350" fill="none" stroke="#b6b495"/><circle cx="300" cy="276" r="7" fill="#9d8659"/><path d="M300 284V322" stroke="#a58e60"/></g>
+            <g class="fold fold-artifact"><path d="M264 336Q202 357 143 501L254 534L300 351L346 534L457 501Q398 357 336 336" fill="url(#mint)"/><path d="M264 346L196 481L254 534M336 346L404 481L346 534" fill="none" stroke="#618677"/><path d="M160 486Q213 432 251 373M440 486Q387 432 349 373" fill="none" stroke="#d2e3cd" opacity=".65"/></g>
+            <g class="fold fold-verification"><path d="M266 339L204 538L300 575L396 538L334 339Z" fill="url(#pleat)"/><path d="M266 339L260 551L300 575L340 551L334 339M300 346V575" fill="none" stroke="#a7a98c"/><path d="M266 339L300 346L260 551Z" fill="#fff8e2"/><path d="M334 339L300 346L340 551Z" fill="#c4c4a9"/><path d="M204 538L266 339L260 551Z" fill="url(#grain)"/>
+              <g fill="none" stroke="#708b73" stroke-width="1.5"><path d="M280 512Q299 463 286 412M286 475Q266 458 273 442Q291 448 289 463M290 446Q310 432 307 418Q292 422 290 438"/><path d="M319 515Q309 489 318 464"/></g>
+            </g>
+            <g class="fold fold-acceptance"><path d="M262 340Q300 318 338 340L330 359Q300 343 270 359Z" fill="#c2a568"/><path d="M300 341Q270 310 263 331Q266 351 300 341Q330 310 337 331Q334 351 300 341" fill="none" stroke="#f2dfae" stroke-width="2"/><path d="M300 346Q278 398 260 411L274 411L278 425Q293 402 300 346Q307 404 327 425L326 408L340 409Q316 389 300 346" fill="#c4a770"/><path d="M287 574V609L277 619H297V577M312 574V609L322 619H302V577" fill="url(#paper)"/></g>
+            <g fill="none" stroke="#96b3a0" stroke-width="1.2" opacity=".7"><path d="M96 565Q138 546 122 494M121 533Q100 532 96 513Q117 514 121 533M124 517Q141 509 138 493Q124 499 124 517M475 537Q461 501 481 467M472 506Q450 496 456 481Q473 486 472 506M475 485Q496 485 500 470Q486 468 475 485"/></g>
+            <g fill="#c2a568"><circle cx="131" cy="192" r="2"/><circle cx="453" cy="375" r="2"/><path d="M466 183v12m-6-6h12M121 391v10m-5-5h10" stroke="#c2a568"/></g>
+            <ellipse cx="300" cy="653" rx="71" ry="4" fill="#061b20" opacity=".5"/>
+          </svg>
+          <div class="fold-tabs" role="tablist" aria-label="Evidence layers" aria-orientation="vertical">
+            <button type="button" role="tab" id="tab-request" aria-controls="evidence-panel" aria-selected="true" data-layer="request"><span>01</span> Request</button>
+            <button type="button" role="tab" id="tab-scope" aria-controls="evidence-panel" aria-selected="false" tabindex="-1" data-layer="scope"><span>02</span> Scope</button>
+            <button type="button" role="tab" id="tab-worker" aria-controls="evidence-panel" aria-selected="false" tabindex="-1" data-layer="worker"><span>03</span> Worker</button>
+            <button type="button" role="tab" id="tab-artifact" aria-controls="evidence-panel" aria-selected="false" tabindex="-1" data-layer="artifact"><span>04</span> Artifact</button>
+            <button type="button" role="tab" id="tab-verification" aria-controls="evidence-panel" aria-selected="false" tabindex="-1" data-layer="verification"><span>05</span> Verification</button>
+            <button type="button" role="tab" id="tab-acceptance" aria-controls="evidence-panel" aria-selected="false" tabindex="-1" data-layer="acceptance"><span>06</span> Acceptance</button>
+          </div>
+        </div>
+        <p class="art-caption">A paper companion, held together by a thread.<br><span>Select a fold · use ↑ ↓ to move between layers</span></p>
+      </section>
+      <section class="paper" id="evidence-panel" role="tabpanel" tabindex="0" aria-labelledby="tab-request">
+        <p class="eyebrow" id="fold-number">FOLD 01 / REQUEST</p>
+        <h2 id="fold-title">Where the thread begins.</h2>
+        <p id="fold-description">The request reference and mission summary, exactly as saved.</p>
+        <p id="selected-mission" class="mission-label">No mission selected</p>
+        <dl id="evidence"><dt>Saved evidence</dt><dd>Not recorded</dd></dl>
+        <p class="paper-foot">An empty fold is an honest one.</p>
+      </section>
+    </div>
+    <section class="trace-section" aria-labelledby="trace-title">
+      <div><p class="eyebrow">KEEP THE THREAD</p><h2 id="trace-title">A trace you can carry.</h2><p>All six folds, with their gaps intact. Copying a trace does not submit or accept work.</p></div>
+      <div class="trace-actions"><button id="copy" type="button" disabled>Copy selected trace</button><p id="copy-status" role="status"></p></div>
+      <details id="trace-details"><summary>Read or select the full trace</summary><label class="sr-only" for="trace">Human-readable mission trace</label><textarea id="trace" readonly rows="12" spellcheck="false">No mission selected.</textarea></details>
+    </section>
+    <details class="snapshot-context"><summary>Snapshot context · observation times, checks &amp; notes</summary><p>These are snapshot-wide records. They are not automatically proof for the selected mission.</p><dl id="snapshot-times"></dl><div id="snapshot-checks"></div><h3>Saved notes</h3><pre id="snapshot-notes">Not recorded</pre></details>
+  </main>
+  <footer><span>Skein / made for a human morning.</span><p>A saved-evidence reader. Not an official Skeinsmith launch packet. No execution or acceptance controls.</p></footer>
+</body>
+</html>
